@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+button {
+    background-color: #E0E0E0;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #3F3F3F;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+button:hover, button:focus {
+    background: #AEAEAE;
+}
+.variant_outline {
+    background: none;
+    border: 2px solid #E0E0E0;
+    box-shadow: none;
+}
+.variant_outline:hover, .variant_outline:focus {
+    background-color: #ebebeb;
+}
+.variant_text {
+    background: none;
+    box-shadow: none;
+}
+.variant_text:hover, .variant_text:focus {
+    background-color: #ebebeb;
+}
+.disable_shadow {
+    box-shadow: none;
+}
+.disable_shadow:hover, .disadle_shadow:focus, button[disabled], button:disabled {
+    background: #E0E0E0;
+}
+button[disabled], button:disabled {
+    box-shadow: none;
+    color: #9E9E9E;
+}
+.size_sm {
+    padding: 6px 12px;
+}
+.size_lg {
+    padding: 11px 22px;
+}
+.color_primary {
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+    color: #FFFFFF;
+}
+.color_primary:hover, .color_primary:focus {
+    background: #0039CB;
+}
+.color_secondary {
+    background: #455A64;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    color: #FFFFFF;
+}
+.color_secondary:hover, .color_secondary:focus {
+    background: #1C313A;
+}
+.color_danger {
+    background: #D32F2F;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    color: #FFFFFF;
+}
+.color_danger:hover, .color_denger:focus {
+    background: #9A0007;
+}
